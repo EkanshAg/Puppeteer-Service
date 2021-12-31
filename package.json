@@ -1,0 +1,21 @@
+{
+  "name": "puppeteerproject",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js 3003",
+    "startFF": "node index_FF.js 3004",
+    "startMNR": "node index_MNR 3005"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "4.17.1",
+    "file-system": "^2.2.2",
+    "newrelic": "^6.2.0",
+    "npm-check-updates": "^4.0.1",
+    "puppeteer": "2.0.0",
+    "puppeteer-har": "^1.1.1"
+  }
+}
